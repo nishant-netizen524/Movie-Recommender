@@ -1,0 +1,24 @@
+# Conda environments
+ai_ml/
+env/
+venv/
+
+# Data files (too large for GitHub)
+data/*.csv
+data/*.zip
+data/ml-latest-small/
+
+# Saved models
+models/*.pkl
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+.env
+
+# OS files
+.DS_Store
+Thumbs.db

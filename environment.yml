@@ -1,0 +1,15 @@
+name: ai_ml
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scikit-learn
+  - streamlit
+  - jupyter
+  - pip
+  - pip:
+      - joblib
+      - requests
